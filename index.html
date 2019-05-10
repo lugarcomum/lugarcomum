@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900|Open+Sans:400,600,700,800|Syncopate:700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet"> 
+
+    <link href="style_2.css" rel="stylesheet">
+    <link href="styleButton.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="wrapper-party">
+        <nav class="item navegador">
+            <h1 class="title">LUGAR COMUM</h1>
+        </nav>
+
+        <div id="contentWrapper" class="wrapper">
+        
+            <div class="wrapper1">            
+                <button id="play-button" class="play-button">
+                    <div class="arrow-right"> 
+                    </div>      
+                </button>              
+                <div id="play-line" class="black-line">
+                </div>
+            </div>
+
+        <div class="item item3">
+            <video id="main-video" class="main-video" poster="medias/video/poster2/inicio.gif" preload="none" onclick="this.play()" loop>
+                <source id="main-source" src="medias/video/comprimido/sem_marca/fetos1.mp4">
+            </video>
+        </div>
+        
+        <div id="wrapper2" class="wrapper2">
+            <div id="button-video01" class="item item4 button-video button-video01">  
+                <h2 class="opcoes-videos label-01 opcoes-videos-selected">01</h2> 
+            </div>     
+            <div id="video-1-option-line" class="option-line video-option-line"></div>        
+        </div>  
+        
+        <div class="wrapper3">
+               <p class="main-text">Para este trabalho, relacionei a prática de apropriação na arte<span>, assunto abordado pela professora Barbara Szaniecki durante aulas de fotografia na Escola Superior de Desenho Industrial</span>, e um interesse particular pelo o que seria <i>comum</i>. Assim cheguei às imagens ultrassonográficas e ao útero. <span>Vídeo produzido em 2018 e aplicação web em 2019,</span> por Yan Hill<span class="english"><!--For this work, I relate the appropriation practice in art and a particular interest by what would be commum amoung human race. Then I came up with the utero and the images by ultrasonography.--></span></p>              
+        </div>
+
+        <div id="wrapper4" class="wrapper4">
+            <div id="button-video02" class="item button-video button-video02"> 
+                <h2 class="opcoes-videos dois">02</h2> 
+            </div>
+            <div id="video-2-option-line" class="option-line"></div>
+        </div>
+
+        <div id="wrapper5" class="wrapper5">
+            <div id="button-video03" class="item button-video button-video03"> 
+                <h2 class="opcoes-videos tres">03</h2> 
+            </div>
+            <div id="video-3-option-line" class="option-line"></div>
+        </div>
+
+    </div>    
+</div> 
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+            integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+            crossorigin="anonymous"></script>
+    <script src="behavior.js"></script>
+</body>
+</html>
